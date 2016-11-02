@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: $alabaster;
+  font-family: $stack-lato;
+
+
+}
+
+img {
+  @extend %max-width;
+
+ @include tablet {
+   & {
+     max-width: 100%;
+   }
+ }
+ }
+
+ ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ a {
+  color: $nevada;
+  text-decoration: none;
+  font-weight: 400;
+
+  &:hover {
+   color: $orange;
+  }
+  &:active {
+   color: $clementine;
+  }
+
+ }
+
+ h1, h2, h3, li {
+   color: $scorpion;
+ }
+
+ h2 {
+   font-size: $standard-font;
+   margin-bottom: 50px;
+ }
+
+
+
+li {
+  background-color: $white;
+  margin-bottom: 4px;
+}

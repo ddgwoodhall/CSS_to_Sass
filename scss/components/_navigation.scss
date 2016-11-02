@@ -1,0 +1,59 @@
+nav {
+   @extend %max-width;
+   @extend %center-text;
+   margin: 0 auto;
+
+   & a {
+     font-weight: bold;
+     font-size: $big-font;
+   }
+   @include tablet {
+     & li {
+       display: inline-block;
+       margin-right: 15px;
+       background-color: #fafafa;
+
+     }
+     & a {
+       font-size: 16px;
+       font-weight: 700;
+     }
+   }
+   @include desktop {
+     & {
+       margin-top: 25px;
+       float: right;
+     }
+   }
+}
+
+
+#bottom-nav {
+  display: none;
+
+  @include tablet {
+
+    & {
+      display:inline-block;
+      float: right;
+    }
+    & ul{
+      margin-right: -15px;
+    }
+    }
+    @include desktop {
+      & {
+        margin-top: 0;
+      }
+
+    }
+  }
+
+.return {
+  @include tablet {
+    & {
+      display: none;
+    }
+
+    }
+  }

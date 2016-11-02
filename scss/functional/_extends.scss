@@ -1,0 +1,15 @@
+%center-text {
+  text-align: center;
+}
+
+%max-width {
+  max-width: 90%;
+}
+
+%clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

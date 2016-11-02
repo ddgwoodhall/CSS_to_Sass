@@ -1,0 +1,22 @@
+.avatar img{
+  height: 130px;
+  border-radius: 50%;
+  margin: 35px auto;
+}
+
+.avatar {
+ margin: 30px auto;
+ background-color: $concrete;
+ width: 80%;
+ height: 200px;
+ max-width: 313px;
+
+@include tablet {
+  & {
+    margin: 0;
+    max-width: 38%;
+    float: right;
+  }
+}
+
+}

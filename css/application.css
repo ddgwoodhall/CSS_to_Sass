@@ -1,0 +1,204 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+#portfolio, #contact, header, nav {
+  text-align: center; }
+
+img, footer, nav {
+  max-width: 90%; }
+
+#portfolio::after, #intro::after, .wrapper::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+@media screen and (min-width: 768px) {
+  img {
+    max-width: 100%; } }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #656a6e;
+  text-decoration: none;
+  font-weight: 400; }
+  a:hover {
+    color: orange; }
+  a:active {
+    color: #e56601; }
+
+h1, h2, h3, li {
+  color: #575757; }
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 50px; }
+
+li {
+  background-color: #fff;
+  margin-bottom: 4px; }
+
+#portfolio {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  @media screen and (min-width: 1024px) {
+    #portfolio {
+      max-width: 90%;
+      margin: 0 auto; } }
+
+#contact {
+  padding-top: 50px; }
+
+@media screen and (min-width: 768px) {
+  #intro {
+    max-width: 90%;
+    margin: 50px auto; } }
+@media screen and (min-width: 1024px) {
+  #intro {
+    max-width: 922px; } }
+
+@media screen and (min-width: 768px) {
+  #gallery {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 90%; }
+  #gallery li {
+    float: left;
+    width: 48.5%;
+    margin: 0.75%;
+    padding: 0; }
+  #gallery li:nth-child(3n) {
+    clear: left; }
+  #gallery li:nth-child(6n) {
+    clear: right; } }
+@media screen and (min-width: 1024px) {
+  #gallery li {
+    float: left;
+    width: 31%; }
+  #gallery li:nth-child(4n) {
+    clear: left; }
+  #gallery li:nth-child(3n) {
+    clear: none; }
+  #gallery li:nth-child(6n) {
+    clear: none; } }
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: 922px; } }
+
+.about {
+  margin-top: 25px;
+  line-height: 140%; }
+  @media screen and (min-width: 768px) {
+    .about {
+      margin: 0;
+      max-width: 60%;
+      float: left;
+      text-align: left; } }
+
+.avatar img {
+  height: 130px;
+  border-radius: 50%;
+  margin: 35px auto; }
+
+.avatar {
+  margin: 30px auto;
+  background-color: #f2f2f2;
+  width: 80%;
+  height: 200px;
+  max-width: 313px; }
+  @media screen and (min-width: 768px) {
+    .avatar {
+      margin: 0;
+      max-width: 38%;
+      float: right; } }
+
+@media screen and (min-width: 1024px) {
+  #name {
+    float: left; } }
+
+footer {
+  margin: 50px auto 10px;
+  border-top: 1px solid #d6d6d6;
+  padding-top: 20px; }
+
+footer p, footer p a {
+  display: inline;
+  float: left;
+  color: #575757;
+  font-weight: 600;
+  font-size: 16px; }
+
+footer .return {
+  float: right; }
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8c8c8c;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+  line-height: 140%; }
+
+nav {
+  margin: 0 auto; }
+  nav a {
+    font-weight: bold;
+    font-size: 25px; }
+  @media screen and (min-width: 768px) {
+    nav li {
+      display: inline-block;
+      margin-right: 15px;
+      background-color: #fafafa; }
+    nav a {
+      font-size: 16px;
+      font-weight: 700; } }
+  @media screen and (min-width: 1024px) {
+    nav {
+      margin-top: 25px;
+      float: right; } }
+
+#bottom-nav {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    #bottom-nav {
+      display: inline-block;
+      float: right; }
+    #bottom-nav ul {
+      margin-right: -15px; } }
+  @media screen and (min-width: 1024px) {
+    #bottom-nav {
+      margin-top: 0; } }
+
+@media screen and (min-width: 768px) {
+  .return {
+    display: none; } }
+
+.avatar img {
+  height: 130px;
+  border-radius: 50%;
+  margin: 35px auto; }
+
+.avatar {
+  margin: 30px auto;
+  background-color: #f2f2f2;
+  width: 80%;
+  height: 200px;
+  max-width: 313px; }
+  @media screen and (min-width: 768px) {
+    .avatar {
+      margin: 0;
+      max-width: 38%;
+      float: right; } }
+
+/*# sourceMappingURL=application.css.map */
